@@ -16,18 +16,20 @@ and the car is not charging.
 
 3. Create a file `.env` with the following:
 
-    GMAIL_USER=xxx@gmail.com
-    GMAIL_PASSWORD=xxx # application password you created above
-    EMAIL_TO='address1:address2:...'
+   ```
+   GMAIL_USER=xxx@gmail.com
+   GMAIL_PASSWORD=xxx # application password you created above
+   EMAIL_TO='address1:address2:...'
 
-    BLUELINK_USERNAME=xxx
-    BLUELINK_PASSWORD=xxx
-    BLUELINK_PIN=xxx
-    BLUELINK_BRAND=hyundai # 'hyundai' or 'kia'
-    BLUELINK_REGION=US # 'US' or 'CA' or 'EU'
+   BLUELINK_USERNAME=xxx
+   BLUELINK_PASSWORD=xxx
+   BLUELINK_PIN=xxx
+   BLUELINK_BRAND=hyundai # 'hyundai' or 'kia'
+   BLUELINK_REGION=US # 'US' or 'CA' or 'EU'
 
-    CAR_VIN=xxx
-    CAR_MODEL=xxx # display name used in the email
-    CAR_SOC_THRESHOLD=33 # alert when battery is below this percentage
+   CAR_VIN=xxx
+   CAR_MODEL=xxx # display name used in the email
+   CAR_SOC_THRESHOLD=33 # alert when battery is below this percentage
+   ```
 
 4. Run as `node plug-in-the-car.js`, perhaps from a cron job
